@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.howling.radar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:7:5-76
+13-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:8:5-76
+14-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:8:22-73
+15    <uses-permission
+15-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:10:5-11:71
+16        android:name="android.permission.NEARBY_WIFI_DEVICES"
+16-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:10:22-75
+17        android:usesPermissionFlags="neverForLocation" />
+17-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:11:22-68
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] /home/ghost/.gradle/caches/transforms-3/75919e89ab9acfe92b320b18b5eba894/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.howling.radar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] /home/ghost/.gradle/caches/transforms-3/75919e89ab9acfe92b320b18b5eba894/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] /home/ghost/.gradle/caches/transforms-3/75919e89ab9acfe92b320b18b5eba894/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.howling.radar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] /home/ghost/.gradle/caches/transforms-3/75919e89ab9acfe92b320b18b5eba894/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] /home/ghost/.gradle/caches/transforms-3/75919e89ab9acfe92b320b18b5eba894/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:13:5-22:19
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] /home/ghost/.gradle/caches/transforms-3/75919e89ab9acfe92b320b18b5eba894/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27        android:background="#000000"
+27-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:15:9-37
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:label="Howling Wave" >
+30-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:14:9-37
+31        <activity
+31-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:16:9-21:20
+32            android:name="com.howling.radar.MainActivity"
+32-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:16:19-47
+33            android:exported="true" >
+33-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:16:48-71
+34            <intent-filter>
+34-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:17:13-20:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:18:17-69
+35-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:18:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:19:17-77
+37-->/home/ghost/Desktop/Coding_time/howlingapp/app/src/main/AndroidManifest.xml:19:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+43            android:authorities="com.howling.radar.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] /home/ghost/.gradle/caches/transforms-3/4381fccdde393d19d04161b40313d198/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ghost/.gradle/caches/transforms-3/985a628a1f5b5ddc7202e86f547851a5/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ghost/.gradle/caches/transforms-3/985a628a1f5b5ddc7202e86f547851a5/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ghost/.gradle/caches/transforms-3/985a628a1f5b5ddc7202e86f547851a5/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

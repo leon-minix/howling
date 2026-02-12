@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ghost/.gradle/daemon/8.5/com.howling.radar.app-merged_res-20:/layout_activity_main.xml.flat",
+        "source": "/home/ghost/.gradle/daemon/8.5/com.howling.radar.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ghost/.gradle/daemon/8.5/com.howling.radar.app-merged_res-20:/drawable_terminal_bg.xml.flat",
+        "source": "/home/ghost/.gradle/daemon/8.5/com.howling.radar.app-main-22:/drawable/terminal_bg.xml"
+    },
+    {
+        "merged": "/home/ghost/.gradle/daemon/8.5/com.howling.radar.app-merged_res-20:/raw_sonar_ping.mp3.flat",
+        "source": "/home/ghost/.gradle/daemon/8.5/com.howling.radar.app-main-22:/raw/sonar_ping.mp3"
+    },
+    {
+        "merged": "com.howling.radar.app-merged_res-20:/layout_activity_main.xml.flat",
+        "source": "com.howling.radar.app-main-22:/layout/activity_main.xml"
+    }
+]

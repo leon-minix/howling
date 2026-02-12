@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+drawable terminal_bg
+id bottomPanel
+id radarView
+layout activity_main
+raw sonar_ping
